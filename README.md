@@ -2,7 +2,7 @@
 
 1. Install required packages
 ```
-apt-get install dbus libdbus-1-dev libdbus-glib-1-2 libdbus-glib-1-dev libreadline-dev libncurses5-dev libnl-genl-3-dev libnl-3-dev libssl-dev build-essential checkinstall pkg-config wget
+sudo apt-get install dbus libdbus-1-dev libdbus-glib-1-2 libdbus-glib-1-dev libreadline-dev libncurses5-dev libnl-genl-3-dev libnl-3-dev libssl-dev build-essential checkinstall pkg-config wget
 ```
 2. Download wpa_supplicant source package
 ```
