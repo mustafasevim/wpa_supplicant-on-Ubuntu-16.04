@@ -41,6 +41,8 @@ CONFIG_LIBNL32=y
 CONFIG_PEERKEY=y
 CONFIG_PKCS12=y
 CONFIG_READLINE=y
+CONFIG_WPS=y
+CONFIG_WPS_ER=y
 CONFIG_WNM=y
 CFLAGS += -I/usr/include/libnl3
 EOF
@@ -51,4 +53,4 @@ cd wpa_supplicant
 ```
 6. Compile
 ```
-make
+make && sudo make install
